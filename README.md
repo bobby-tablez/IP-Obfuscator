@@ -1,5 +1,5 @@
 # IP-Obfuscator
-Hide an IP address in scripts by hex/decimal conversions. Works in Linux and Windows, or even browsers. 
+Hide an IP address in scripts by using hex/decimal mixed notation conversions. Works in Linux and Windows, or even browsers. 
 
 **Example**
 `0x8e.16433102` becomes `142.250.191.206` (Google)
