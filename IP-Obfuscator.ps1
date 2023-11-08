@@ -1,3 +1,14 @@
+<# 
+.SYNOPSIS
+    Obfuscate IP addresses
+.DESCRIPTION 
+     This quick tool obfuscates IP addreses using hex/decimal mixed notation conversions. Once obfuscated, these will work in Linux and Windows commandline, scritps, binaries or even browsers.
+.NOTES 
+    Use at your own risk! For educational purposes only.
+.LINK 
+    https://github.com/bobby-tablez/IP-Obfuscator/blob/main/IP-Obfuscator.ps1
+#>
+
 $ip = Read-Host -Prompt "IP address to obfuscate (IPv4 only)"
 
 if (-not ([System.Net.IPAddress]::TryParse($ip, [ref]$null))) {
