@@ -240,9 +240,9 @@ Function PrintIt {
     Write-Host -ForegroundColor DarkYellow "Octal: (Dots[2])`t" -nonewline; Write-Host -ForegroundColor Yellow $(OctalTwo)
     Write-Host -ForegroundColor DarkYellow "Octal: (Dots[1])`t" -nonewline; Write-Host -ForegroundColor Yellow $(OctalOne)
     Write-Host -ForegroundColor DarkYellow "PaddedOctal:`t`t" -nonewline; Write-Host -ForegroundColor Yellow $(PaddedOctal)
-    Write-Host -ForegroundColor DarkYellow "PaddedOctal: (Dots[3])`t" -nonewline; Write-Host -ForegroundColor Yellow $(PaddedOctalThree)
-    Write-Host -ForegroundColor DarkYellow "PaddedOctal: (Dots[2])`t" -nonewline; Write-Host -ForegroundColor Yellow $(PaddedOctalTwo)
-    Write-Host -ForegroundColor DarkYellow "PaddedOctal: (Dots[1])`t" -nonewline; Write-Host -ForegroundColor Yellow $(PaddedOctalOne)
+    Write-Host -ForegroundColor DarkYellow "PaddedOctal (Dots[3]):`t" -nonewline; Write-Host -ForegroundColor Yellow $(PaddedOctalThree)
+    Write-Host -ForegroundColor DarkYellow "PaddedOctal (Dots[2]):`t" -nonewline; Write-Host -ForegroundColor Yellow $(PaddedOctalTwo)
+    Write-Host -ForegroundColor DarkYellow "PaddedOctal (Dots[1]):`t" -nonewline; Write-Host -ForegroundColor Yellow $(PaddedOctalOne)
     Write-Host ('-' * $Host.UI.RawUI.WindowSize.Width)
     Write-Host ""
 }
