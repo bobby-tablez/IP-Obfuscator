@@ -4,7 +4,7 @@ Hide an IP address in scripts by using hex/decimal mixed notation conversions. O
 **Example**
 `0x8e.16433102` becomes `142.250.191.206` (Google)
 
-![example image](https://github.com/bobby-tablez/IP-Obfuscator/blob/main/ip_obfuscator_example.png?raw=true)
+![ip-obfuscator-screenshot](https://raw.githubusercontent.com/bobby-tablez/IP-Obfuscator/main/screenshot-ip-obfuscator.png?raw=true)
 
 
 Use at your own risk! For educational purposes only.
