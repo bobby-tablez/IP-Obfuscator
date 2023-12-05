@@ -1,5 +1,6 @@
 # IP-Obfuscator
 This PowerShell script takes a standard IPv4 address and obfuscates it using several methods. Each method "should" be interpreted correctly using a console, browser, or compiler. 
+
 ![ip-obfuscator-screenshot](https://raw.githubusercontent.com/bobby-tablez/IP-Obfuscator/main/screenshot-ip-obfuscator.png?raw=true)
 
 The script supports several conversion methods such as decimal, several hexadecimal conversions, mixed notation such as hex+decimal, and several octal conversion methods. 
